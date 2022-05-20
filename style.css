@@ -176,3 +176,43 @@
         transform: rotate(0deg);
     }
 }
+
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: test1 2s linear;
+
+}
+
+@keyframes test1 {
+    0% {
+        left: 10%;
+    }
+
+    50% {
+        left: 65%;
+    }
+
+    100% {
+        left: 10%;
+    }
+}
+
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: test2 2s linear;
+
+}
+
+@keyframes test2 {
+    0% {
+        right: 20%;
+    }
+
+    50% {
+        right: 65%;
+    }
+
+    100% {
+        right: 20%;
+    }
+}
