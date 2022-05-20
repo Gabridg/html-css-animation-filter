@@ -116,3 +116,11 @@
 .col-xs-12 .ex-6-img:hover {
     filter: grayscale(1);
 }
+
+.col-xs-12 .ex-7-img:hover {
+    filter: grayscale(0.5) sepia(0.5);
+}
+
+.ex-7-img {
+    transition: filter 2s;
+}
