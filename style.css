@@ -31,6 +31,7 @@
     width: 60px;
     height: 60px;
     background: red;
+    transition: transform 2s;
 }
 
 .ex-6-img,
@@ -102,4 +103,12 @@
 
 .col-xs-12 .ex-4-square:hover {
     opacity: 0;
+}
+
+.col-xs-12 .ex-5-square:hover {
+    transform: scale(2);
+}
+
+.col-xs-12 .ex-5-square:active {
+    transform: scale(0.5);
 }
