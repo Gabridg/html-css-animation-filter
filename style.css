@@ -88,39 +88,48 @@
     height: 20px;
 }
 
-.col-xs-12 .ex-1-square:hover {
+.ex-1-square:hover {
     background-color: #f00;
 
 }
 
-.col-xs-12 .ex-2-square:active {
+.ex-2-square:active {
     width: 100%;
 }
 
-.col-xs-12 .ex-3-square:hover {
+.ex-3-square:hover {
     border-radius: 50%;
 }
 
-.col-xs-12 .ex-4-square:hover {
+.ex-4-square:hover {
     opacity: 0;
 }
 
-.col-xs-12 .ex-5-square:hover {
+.ex-5-square:hover {
     transform: scale(2);
 }
 
-.col-xs-12 .ex-5-square:active {
+.ex-5-square:active {
     transform: scale(0.5);
 }
 
-.col-xs-12 .ex-6-img:hover {
+.ex-6-img:hover {
     filter: grayscale(1);
 }
 
-.col-xs-12 .ex-7-img:hover {
+.ex-7-img:hover {
     filter: grayscale(0.5) sepia(0.5);
 }
 
 .ex-7-img {
     transition: filter 2s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(0.5) sepia(0.5);
+    border-radius: 40px;
+}
+
+.ex-8-img {
+    transition: filter 2s, border-radius 2s;
 }
