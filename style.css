@@ -245,7 +245,7 @@
 
     90% {
         top: -10px;
-        left: -15px;
+        left: -10px;
     }
 
     100% {
@@ -281,8 +281,8 @@
     }
 
     90% {
-        bottom: -10px;
-        right: -15px;
+        bottom: -20px;
+        right: -20px;
     }
 
     100% {
