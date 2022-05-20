@@ -143,3 +143,18 @@
 .ex-9-img {
     transition: filter 2s, border-radius 2s, transform 2s;
 }
+
+
+.ex-10-icon {
+    animation: time 1s linear infinite reverse;
+}
+
+@keyframes time {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
